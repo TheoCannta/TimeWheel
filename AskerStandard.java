@@ -1,3 +1,4 @@
+
 import java.time.*;
 
 /*TimeZone project
@@ -12,8 +13,7 @@ eventually needs an html BuT THIS FIRST*/
 
 public class AskerStandard {
     String hourColor="blah blah blah";//asker time uses colors instead of numbers for compatibility
-    
-
+    //sets up the colorsystem, gets the time, the hour and starts the conversion
     public AskerStandard(){
         hourColor = "grey";
        LocalTime timeIs= LocalTime.now();
